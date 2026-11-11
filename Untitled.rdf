@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11/"
+     xml:base="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:untitled-ontology-11="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#написанаАвтором -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#написанаАвтором">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Книга"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Автор"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#читает -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#читает">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Читатель"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Книга"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#имя -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#имя">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Автор"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#название -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#название">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Книга"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Автор -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Автор"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#АктивныйЧитатель -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#АктивныйЧитатель"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Книга -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Книга"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#ПопулярнаяКнига -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#ПопулярнаяКнига"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Читатель -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Читатель"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Анна -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Анна">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Читатель"/>
+        <untitled-ontology-11:читает rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#ПреступлениеИНаказание"/>
+        <untitled-ontology-11:имя></untitled-ontology-11:имя>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#ВойнаИМир -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#ВойнаИМир">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Книга"/>
+        <untitled-ontology-11:написанаАвтором rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Толстой"/>
+        <untitled-ontology-11:название></untitled-ontology-11:название>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Достоевский -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Достоевский">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Автор"/>
+        <untitled-ontology-11:имя></untitled-ontology-11:имя>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Иван -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Иван">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Читатель"/>
+        <untitled-ontology-11:читает rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#ВойнаИМир"/>
+        <untitled-ontology-11:имя></untitled-ontology-11:имя>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#ПреступлениеИНаказание -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#ПреступлениеИНаказание">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Книга"/>
+        <untitled-ontology-11:написанаАвтором rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Достоевский"/>
+        <untitled-ontology-11:название></untitled-ontology-11:название>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Толстой -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Толстой">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Автор"/>
+        <untitled-ontology-11:имя></untitled-ontology-11:имя>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11/x">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11/y">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Правило_популярной_книги</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Книга"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11/x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#читает"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11/y"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11/x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#ПопулярнаяКнига"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11/x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Правило_активного_читателя</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#Читатель"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11/x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#читает"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11/x"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11/y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11#АктивныйЧитатель"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/9/untitled-ontology-11/x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

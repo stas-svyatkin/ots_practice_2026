@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7/"
+     xml:base="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-7="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#имеетДвигатель -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#имеетДвигатель">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Автомобиль"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Двигатель"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#имеетКолеса -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#имеетКолеса">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Автомобиль"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Колеса"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#имеетКузов -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#имеетКузов">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Автомобиль"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Кузов"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#имеетТрансмиссию -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#имеетТрансмиссию">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Автомобиль"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Трансмиссия"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Диаметр -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Диаметр">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Колеса"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Макс_скорость -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Макс_скорость">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Двигатель"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Марка -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Марка">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Автомобиль"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Тип_кузова -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Тип_кузова">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Кузов"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Тип_трансмиссии -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Тип_трансмиссии">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Трансмиссия"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Автомобиль -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Автомобиль"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Двигатель -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Двигатель"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Колеса -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Колеса"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Кузов -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Кузов"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Трансмиссия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Трансмиссия"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Automatic_8HP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Automatic_8HP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Трансмиссия"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Michelin_Primacy_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Michelin_Primacy_4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Колеса"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Sedan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Sedan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Кузов"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Toyota_2AR_FE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Toyota_2AR_FE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Двигатель"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Toyota_Camry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Toyota_Camry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Автомобиль"/>
+        <untitled-ontology-7:имеетДвигатель rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Toyota_2AR_FE"/>
+        <untitled-ontology-7:имеетКолеса rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Michelin_Primacy_4"/>
+        <untitled-ontology-7:имеетКузов rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Sedan"/>
+        <untitled-ontology-7:имеетТрансмиссию rdf:resource="http://www.semanticweb.org/stassvatkin/ontologies/2026/8/untitled-ontology-7#Automatic_8HP"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
